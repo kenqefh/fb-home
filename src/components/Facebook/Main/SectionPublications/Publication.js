@@ -1,7 +1,7 @@
 import React from 'react'
 
-const Publication = ({ name, profile, ago, message, photo, key }) => (
-    <article className='box__main publication-container' key={key}>
+const Publication = ({ name, profile, ago, message, photo }) => (
+    <article className='box__main publication-container'>
         <header>
             <div className='div__header__publication'>
                 <img className='profile-image img__header-detaills__publication' src={profile} alt={name} />

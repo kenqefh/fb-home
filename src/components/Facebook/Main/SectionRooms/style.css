@@ -24,3 +24,7 @@
 .p-header__section-rooms {
   color: var(--color-text-title);
 }
+
+.image__section-rooms {
+  margin-right: 10px;
+}

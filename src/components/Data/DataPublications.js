@@ -57,7 +57,6 @@ const gen_publications = (num = 3) => {
             key: data.length + Date.now()
         })
     }
-    console.log(data)
     return data;
 }
 

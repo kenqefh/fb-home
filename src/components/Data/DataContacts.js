@@ -76,6 +76,24 @@ const contacts = [
         story: 'images/random-1.jpg',
         name: 'Shan Sua',
         key: '013'
+    },
+    {
+        profile: 'images/asian-post.jpg',
+        story: 'images/asian.jpeg',
+        name: 'Girl Asian',
+        key: '014'
+    },
+    {
+        profile: 'images/scarlet-post.jpg',
+        story: 'images/scarlet.jpg',
+        name: 'Ingrid De Las Casas',
+        key: '015'
+    },
+    {
+        profile: 'images/shakira-post.jpg',
+        story: 'images/shakira.jpg',
+        name: 'Cyan Fei',
+        key: '016'
     }
 ]
 

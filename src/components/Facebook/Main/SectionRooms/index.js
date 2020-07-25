@@ -15,7 +15,7 @@ const SectionRooms = _ => (
         <div className='div-images__section-rooms'>
             {
                 contacts.map(({ profile, name, key }) => (
-                    <img className='profile-image'
+                    <img className='profile-image image__section-rooms'
                         src={profile}
                         alt={name} key={key}
                     />
