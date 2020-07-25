@@ -1,14 +1,18 @@
 .a__list {
-  text-decoration: none;
-  color: var(--color-text-normal);
+  margin-right: 15px;
+  padding: 5px;
+  border-radius: 10px;
+
   font-size: 16px;
   line-height: 20px;
   font-weight: 400;
+  text-decoration: none;
+  color: var(--color-text-normal);
+
+  overflow: hidden;
+
   display: flex;
   align-items: center;
-  padding: 5px;
-  border-radius: 10px;
-  overflow: hidden;
 }
 .a__list:hover {
   background: var(--color-fondo-hover);

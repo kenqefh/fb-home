@@ -1,7 +1,13 @@
 .header {
-  margin-bottom: 20px;
+  box-sizing: border-box;
+
+  position: fixed;
   padding: 0 0.5rem;
+  width: 100%;
+  top: 0;
+  right: 0;
   z-index: 100;
+
   background: var(--color-fondo-header);
   box-shadow: 0 1px 10px -2px var(--color-text-more);
 

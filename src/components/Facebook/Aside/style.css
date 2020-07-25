@@ -1,3 +1,13 @@
+.aside {
+  padding-top: 25px;
+  overflow: hidden;
+  overflow-y: auto;
+}
+.aside::-webkit-scrollbar {
+  visibility: hidden;
+  height: 0;
+  width: 0;
+}
 .contacts-section__aside > ul {
   list-style: none;
 }

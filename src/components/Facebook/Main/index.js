@@ -7,7 +7,7 @@ import SectionRooms from './SectionRooms'
 import './style.css'
 
 const Main = _ => (
-    <main className='main'>
+    <main className='main' id='home'>
         <SectionStory />
         <SectionCreatePublication />
         <SectionRooms />

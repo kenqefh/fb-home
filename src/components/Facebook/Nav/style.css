@@ -1,6 +1,7 @@
+.nav {
+  padding-top: 25px;
+}
 .container-items__nav {
   padding-left: 10px;
-  position: sticky;
-  top: 0;
   list-style: none;
 }

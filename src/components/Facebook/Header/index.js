@@ -64,7 +64,10 @@ const Header = _ => (
             </ul>
         </nav>
         <div className='menu__header'>
-            <div className='div-profile__menu__header'><img alt='img' className='img-profile__menu__header' src={profile_photo} />Frank</div>
+            <div className='div-profile__menu__header'>
+                <img alt='img' className='img-profile__menu__header' src={profile_photo} />
+                Frank
+            </div>
             <div><img alt='img' src={plus_icon} /></div>
             <div><img alt='img' src={messenger_icon} /></div>
             <div><img alt='img' src={notification_icon} /></div>

@@ -2,6 +2,7 @@
   display: flex;
   overflow: hidden;
   overflow-x: auto;
+  height: 210px;
 }
 .section-create-story::-webkit-scrollbar {
   visibility: hidden;
@@ -19,7 +20,6 @@
   box-shadow: var(--box-shadown-main);
   position: relative;
   overflow: hidden;
-  z-index: -100;
 }
 .story-container:hover {
   opacity: 0.9;
