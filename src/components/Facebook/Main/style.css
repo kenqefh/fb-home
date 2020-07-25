@@ -1,0 +1,14 @@
+.main {
+  margin: 0 auto;
+  padding: 0 5px;
+  display: grid;
+}
+
+.main > section {
+  box-sizing: border-box;
+  max-width: 700px;
+  min-width: 400px;
+
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+}

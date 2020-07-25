@@ -1,0 +1,62 @@
+.section-create-story {
+  display: flex;
+  overflow: hidden;
+  overflow-x: auto;
+}
+.section-create-story::-webkit-scrollbar {
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+
+.story-container {
+  flex: 0 1 115px;
+  min-width: 100px;
+  height: 200px;
+  text-decoration: none;
+  margin-right: 5px;
+  border-radius: 8px;
+  box-shadow: var(--box-shadown-main);
+  position: relative;
+  overflow: hidden;
+  z-index: -100;
+}
+.story-container:hover {
+  opacity: 0.9;
+}
+.create-story-container {
+  display: inline-grid;
+  grid-template-rows: 2fr 1fr;
+}
+
+.img__story {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.img__create-story {
+  border-radius: 8px 8px 0 0;
+}
+
+.profile__story {
+  position: absolute;
+  top: 7px;
+  left: 7px;
+}
+
+.p__create-story {
+  background: var(--color-fondo-articles);
+  color: var(--color-text-title);
+  text-align: center;
+  padding: 10px 0;
+}
+.name-friend__story {
+  position: absolute;
+  bottom: 7px;
+  left: 7px;
+  width: calc(100% - 14px);
+
+  color: var(--color-fondo-articles);
+  text-shadow: 1px 1px 5px var(--color-text-title);
+  overflow: hidden;
+}

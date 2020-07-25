@@ -1,0 +1,26 @@
+.header__section-rooms {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+.header__section-rooms > div {
+  display: flex;
+  align-items: center;
+}
+.header__section-rooms > a {
+  text-decoration: none;
+}
+
+.div-images__section-rooms {
+  display: flex;
+  overflow: hidden;
+  overflow-x: auto;
+}
+
+.div-images__section-rooms::-webkit-scrollbar {
+  height: 20px;
+  display: none;
+}
+.p-header__section-rooms {
+  color: var(--color-text-title);
+}

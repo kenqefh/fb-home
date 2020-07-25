@@ -1,0 +1,23 @@
+.a__list {
+  text-decoration: none;
+  color: var(--color-text-normal);
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.a__list:hover {
+  background: var(--color-fondo-hover);
+}
+.a__list img {
+  margin-right: 10px;
+}
+
+.icon-item__list {
+  width: 40px;
+  height: 40px;
+}

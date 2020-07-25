@@ -1,0 +1,6 @@
+.footer > p {
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--color-text-more);
+  padding: 15px 10px;
+}
