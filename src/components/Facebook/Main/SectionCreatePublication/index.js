@@ -8,7 +8,7 @@ const SectionCreatePublication = _ => (
     <section className='box__main section-create-publication' >
         <form className='form__create-publication'>
             <img className='profile-image' src={profile_image} alt='' />
-            <input className='input-text input-form__create-publication' type='text' placeholder="What's on your mind, Elvis?" />
+            <input className='input-text input-form__create-publication' type='text' placeholder="What's on your mind, Kenq?" />
         </form>
         {
             data_option_create_publication.map(({ url, desc, key }) => (

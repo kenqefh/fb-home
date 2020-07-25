@@ -1,7 +1,7 @@
 const items_nav = [
     {
         icon: 'images/profile.jpg',
-        title: 'Elvis Frank Dominguez Vidal',
+        title: 'Kenqefh',
         url: '#home',
         style: 'profile-image',
         key: '01'
