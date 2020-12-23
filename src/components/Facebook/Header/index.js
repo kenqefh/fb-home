@@ -8,6 +8,7 @@ const nav_list = [
         to_path: '#home',
         url: 'icons/header/home-64.ico',
         alt: 'home',
+        class_name: 'nav-item--active',
         key: 'home'
     },
     {
@@ -57,8 +58,8 @@ const Header = _ => (
         <nav>
             <ul className='nav-items'>
                 {
-                    nav_list.map(({ to_path, url, alt, key }) => (
-                        <NavHeader to_path={to_path} url={url} alt={alt} key={key} />
+                    nav_list.map(({ to_path, url, alt, key, class_name }) => (
+                        <NavHeader to_path={to_path} class_name={class_name} url={url} alt={alt} key={key} />
                     ))
                 }
             </ul>

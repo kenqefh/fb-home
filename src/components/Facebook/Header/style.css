@@ -43,6 +43,12 @@
   margin: 5px;
   border-radius: 10px;
 }
+.nav-item--active{
+  margin: 0px 5px;
+  padding: 5px 0;
+  border-radius: 0px;
+  background: var(--color-fondo);
+}
 .nav-item-link:hover {
   background: var(--color-fondo);
 }

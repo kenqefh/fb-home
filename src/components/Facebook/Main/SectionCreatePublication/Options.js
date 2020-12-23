@@ -1,8 +1,8 @@
 import React from 'react'
 
 const Options = ({ url, desc }) => (
-    <a href='#home' className='sub-title-text a__create-pub' >
-        <img className='icon__create-pub' src={url} alt={desc} />
+    <a href='#home' className='sub-title-text create-publication__option' >
+        <img className='page__icon-main' src={url} alt={desc} />
         <p>{desc}</p>
     </a>
 )

@@ -1,35 +1,37 @@
-.publication-container {
-  margin-bottom: 15px;
+.publications {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
 }
 
-.publication-container > header {
+.publication {
   display: flex;
-  justify-content: space-between;
-  margin-bottom: 15px;
+  flex-direction: column;
+  gap: 15px;
 }
-.div__header__publication {
+
+.publication__header {
   display: flex;
-  align-items: center;
+  gap: 8px;
+}
+.publication__header-details {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
   overflow: hidden;
 }
-.img__header-detaills__publication {
-  margin-right: 10px;
-}
-.div__header-detaills__publication > * {
-  display: block;
-}
-.div__header-detaills__publication > a {
+.publication__header-details--link {
   text-decoration: none;
   color: var(--color-text-title);
 }
-.div__header-detaills__publication > a:hover {
+.publication__header-details--link:hover {
   text-decoration: underline;
 }
-.div__header-detaills__publication > span {
+.publication__header-details--hour {
   color: var(--color-text-more);
   font-size: 14px;
 }
-.link-more__publication {
+.publication__header-more {
   text-decoration: none;
   color: var(--color-text-more);
   font-size: 24px;
@@ -37,30 +39,30 @@
   width: 24px;
 }
 
-.publication-container > p {
+.publication__text {
   color: var(--color-text-normal);
   font-size: 16px;
-  margin-bottom: 10px;
 }
 
-.div-image__publications {
+.publication__image-container {
   width: 100%;
   padding-bottom: 10px;
   border-bottom: 1px solid var(--color-fondo-hover);
 }
-.image-publication {
+.publication__image {
+  border-radius: 3px;
   width: 100%;
   max-height: 720px;
   min-height: 360px;
   object-fit: cover;
 }
 
-.reactions__publication {
+.publication__reactions {
   margin-top: 5px;
   display: flex;
   justify-content: space-around;
 }
-.reactions__publication > span {
+.publication__reaction {
   flex-grow: 1;
 
   padding: 10px;
@@ -70,6 +72,6 @@
   color: var(--color-text-more);
   text-align: center;
 }
-.reactions__publication > span:hover {
+.publication__reaction:hover {
   background: var(--color-fondo);
 }

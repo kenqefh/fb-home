@@ -4,7 +4,7 @@ import Publication from './Publication'
 import './style.css'
 
 const SectionPublications = _ => (
-    <section>
+    <section className='publications'>
         {
             gen_publications(25).map(({ name, profile, ago, message, photo, key }) => (
                 <Publication

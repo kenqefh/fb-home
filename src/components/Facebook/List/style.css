@@ -12,13 +12,11 @@
   overflow: hidden;
 
   display: flex;
+  gap: 8px;
   align-items: center;
 }
 .a__list:hover {
   background: var(--color-fondo-hover);
-}
-.a__list img {
-  margin-right: 10px;
 }
 
 .icon-item__list {

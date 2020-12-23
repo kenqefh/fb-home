@@ -1,26 +1,26 @@
 import React from 'react'
 
 const Publication = ({ name, profile, ago, message, photo }) => (
-    <article className='box__main publication-container'>
-        <header>
-            <div className='div__header__publication'>
-                <img className='profile-image img__header-detaills__publication' src={profile} alt={name} />
-                <div className='div__header-detaills__publication'>
-                    <a className='sub-title-text' href='#home'>{name}</a>
-                    <span>{ago} h</span>
-                </div>
+    <article className='box__main publication'>
+        <header className='publication__header'>
+            <div className='profile-image__container'>
+                <img className='profile-image' src={profile} alt={name} />
             </div>
-            <a className='link-more__publication' href='#home'>...</a>
+            <div className='publication__header-details'>
+                <a className='sub-title-text publication__header-details--link' href='#home'>{name}</a>
+                <span className='publication__header-details--hour'>{ago} h</span>
+            </div>
+            <a className='publication__header-more' href='/'>...</a>
         </header>
-        <p>{(message.length > 0) ? message : 'Publico'}</p>
+        <p className='publication__text'>{(message.length > 0) ? message : 'Publico'}</p>
 
-        <div className='div-image__publications'>
-            <img src={photo} className='image-publication' alt='publicacion' />
+        <div className='publication__image-container'>
+            <img src={photo} className='publication__image' alt='publication' />
         </div>
-        <div className='reactions__publication'>
-            <span className='sub-title-text'>Like</span>
-            <span className='sub-title-text'>comment</span>
-            <span className='sub-title-text'>Share</span>
+        <div className='publication__reactions'>
+            <span className='publication__reaction sub-title-text'>Like</span>
+            <span className='publication__reaction sub-title-text'>comment</span>
+            <span className='publication__reaction sub-title-text'>Share</span>
         </div>
     </article>
 )

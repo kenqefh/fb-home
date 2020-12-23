@@ -5,20 +5,24 @@ import { data_option_create_publication } from '../../../Data/DataOptionCreatePu
 import './style.css'
 
 const SectionCreatePublication = _ => (
-    <section className='box__main section-create-publication' >
-        <form className='form__create-publication'>
-            <img className='profile-image' src={profile_image} alt='' />
-            <input className='input-text input-form__create-publication' type='text' placeholder="What's on your mind, Kenq?" />
+    <section className='box__main create-publication' >
+        <form className='create-publication__form'>
+            <div className='profile-image__container'>
+                <img className='profile-image' src={profile_image} alt='' />
+            </div>
+            <input className='input-text create-publication__form-input' type='text' placeholder="What's on your mind, Kenq?" />
         </form>
-        {
-            data_option_create_publication.map(({ url, desc, key }) => (
-                <Options
-                    url={url}
-                    desc={desc}
-                    key={key}
-                />
-            ))
-        }
+        <div className='create-publication__options'>
+            {
+                data_option_create_publication.map(({ url, desc, key }) => (
+                    <Options
+                        url={url}
+                        desc={desc}
+                        key={key}
+                    />
+                ))
+            }
+        </div>
     </section>
 )
 
