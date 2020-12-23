@@ -1,4 +1,5 @@
 {
+  "homepage": "http://kenqefh.github.io/fb-home",
   "name": "lesson001_html_css",
   "version": "0.1.0",
   "private": true,
@@ -14,6 +15,7 @@
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
+    "build-localhost": "PUBLIC_URL=/ react-scripts build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
