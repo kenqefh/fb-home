@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/fb-home/static/css/main.00f07179.chunk.css",
+    "main.js": "/fb-home/static/js/main.b370256f.chunk.js",
+    "main.js.map": "/fb-home/static/js/main.b370256f.chunk.js.map",
+    "runtime-main.js": "/fb-home/static/js/runtime-main.f0b39746.js",
+    "runtime-main.js.map": "/fb-home/static/js/runtime-main.f0b39746.js.map",
+    "static/js/2.72ebcd25.chunk.js": "/fb-home/static/js/2.72ebcd25.chunk.js",
+    "static/js/2.72ebcd25.chunk.js.map": "/fb-home/static/js/2.72ebcd25.chunk.js.map",
+    "index.html": "/fb-home/index.html",
+    "precache-manifest.d9ce360c51492c17f532aa49900ffeee.js": "/fb-home/precache-manifest.d9ce360c51492c17f532aa49900ffeee.js",
+    "service-worker.js": "/fb-home/service-worker.js",
+    "static/css/main.00f07179.chunk.css.map": "/fb-home/static/css/main.00f07179.chunk.css.map",
+    "static/js/2.72ebcd25.chunk.js.LICENSE.txt": "/fb-home/static/js/2.72ebcd25.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f0b39746.js",
+    "static/js/2.72ebcd25.chunk.js",
+    "static/css/main.00f07179.chunk.css",
+    "static/js/main.b370256f.chunk.js"
+  ]
+}
