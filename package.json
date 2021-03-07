@@ -9,7 +9,7 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-lazy-load-image-component": "^1.5.1",
-    "react-scripts": "3.4.1",
+    "react-scripts": "^4.0.3",
     "websocket-extensions": "^0.1.4"
   },
   "scripts": {
