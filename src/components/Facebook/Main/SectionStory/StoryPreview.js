@@ -1,13 +1,16 @@
-import React from 'react'
+import React from "react";
+import { ImageProfile } from "./../../../../atoms/image";
 
-const StoryPreview = ({ profile, story, name }) => (
-    <a className='story-container' href='#home'>
-        <div className='profile-image__container profile__story'>
-            <img src={profile} className='profile-image' alt={name} />
-        </div>
-        <img src={story} className='img__story' alt={name} />
-        <p className='sub-title-text name-friend__story'>{name}</p>
-    </a>
-)
+function StoryPreview({ profile, story, name }) {
+  return (
+    <div className="story-container" href="#home">
+      <div className="profile-image__container profile__story">
+        <ImageProfile profile={profile} name={name} />
+      </div>
+      <img src={story} className="img__story" alt="" loading="lazy" />
+      <p className="sub-title-text name-friend__story">{name}</p>
+    </div>
+  );
+}
 
-export default StoryPreview
+export default StoryPreview;
