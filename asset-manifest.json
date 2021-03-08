@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/fb-home/static/css/main.f3d139f6.chunk.css",
-    "main.js": "/fb-home/static/js/main.d0a087aa.chunk.js",
-    "main.js.map": "/fb-home/static/js/main.d0a087aa.chunk.js.map",
+    "main.css": "/fb-home/static/css/main.486e4fea.chunk.css",
+    "main.js": "/fb-home/static/js/main.fd0e9487.chunk.js",
+    "main.js.map": "/fb-home/static/js/main.fd0e9487.chunk.js.map",
     "runtime-main.js": "/fb-home/static/js/runtime-main.6f6c5ac2.js",
     "runtime-main.js.map": "/fb-home/static/js/runtime-main.6f6c5ac2.js.map",
-    "static/js/2.80e5a0fd.chunk.js": "/fb-home/static/js/2.80e5a0fd.chunk.js",
-    "static/js/2.80e5a0fd.chunk.js.map": "/fb-home/static/js/2.80e5a0fd.chunk.js.map",
+    "static/js/2.a3683e8a.chunk.js": "/fb-home/static/js/2.a3683e8a.chunk.js",
+    "static/js/2.a3683e8a.chunk.js.map": "/fb-home/static/js/2.a3683e8a.chunk.js.map",
     "index.html": "/fb-home/index.html",
-    "static/css/main.f3d139f6.chunk.css.map": "/fb-home/static/css/main.f3d139f6.chunk.css.map",
-    "static/js/2.80e5a0fd.chunk.js.LICENSE.txt": "/fb-home/static/js/2.80e5a0fd.chunk.js.LICENSE.txt"
+    "static/css/main.486e4fea.chunk.css.map": "/fb-home/static/css/main.486e4fea.chunk.css.map",
+    "static/js/2.a3683e8a.chunk.js.LICENSE.txt": "/fb-home/static/js/2.a3683e8a.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.6f6c5ac2.js",
-    "static/js/2.80e5a0fd.chunk.js",
-    "static/css/main.f3d139f6.chunk.css",
-    "static/js/main.d0a087aa.chunk.js"
+    "static/js/2.a3683e8a.chunk.js",
+    "static/css/main.486e4fea.chunk.css",
+    "static/js/main.fd0e9487.chunk.js"
   ]
 }
