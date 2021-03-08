@@ -1,0 +1,12 @@
+.load_icon {
+  animation: load_icon 630ms ease infinite;
+}
+
+@keyframes load_icon {
+  from {
+    transform: rotateZ(0deg);
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
